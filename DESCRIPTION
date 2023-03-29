@@ -4,8 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Matthew", "Gillies", , "mcgillies@shaw.ca", role = c("aut", "cre"),
            )
-Description: A package that enables basic tasks such as string manipulation to 
-be completed in an easier manner.
+Description: A package that enables basic tasks such as string manipulation to be completed in an easier manner.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
