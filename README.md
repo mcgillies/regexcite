@@ -65,3 +65,20 @@ y <- "192.168.0.1"
 str_split_one(y, pattern = stringr::fixed("."))
 #> [1] "192" "168" "0"   "1"
 ```
+Another function has been added to the package (`my_add`) that functions on adding two integers with certain constraints. The second parameter is optional, and has a set value of 10 if not specified when the function is called. The function will also return NA if an NA value is inputted, and return an error if
+a string is inputted. 
+``` r
+library(regexcite)
+
+my_add(1,2)
+#> [1] 3
+
+my_add(1)
+#> [1] 11
+
+my_add(NA)
+#> [1] NA
+
+my_add(3, "4")
+#> [1] Error in my_add(3, "4"): One of your inputs contains a string
+```
