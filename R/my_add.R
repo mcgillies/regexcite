@@ -1,6 +1,7 @@
 #' Add two numbers
 #'
-#' @param an integer, and another second optional integer
+#' @param x An integer
+#' @param y An optional integer with value 10 if not specified otherwise
 #'
 #' @return An integer, NA or error message
 #' @export
